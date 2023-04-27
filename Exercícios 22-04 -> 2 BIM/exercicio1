@@ -1,0 +1,9 @@
+fun main() {
+println("Exercício 1")
+val hora :Double =3.30;
+when (hora){
+in 5.0..12.59 -> println ("Turno da manhã")
+in 13.0..20.59 ->  println ("Turno da tarde")
+in 21.0..23.59 , in 0.0..4.59 -> println ("Turno da noite")
+}
+}
